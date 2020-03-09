@@ -2,9 +2,9 @@
 
 class User {
   constructor({ name, age, followers }) {
-    this.name = String(name);
-    this.age = Number(age);
-    this.followers = Number(followers);
+    this.name = name;
+    this.age = age;
+    this.followers = followers;
   }
   getInfo() {
     console.log(
